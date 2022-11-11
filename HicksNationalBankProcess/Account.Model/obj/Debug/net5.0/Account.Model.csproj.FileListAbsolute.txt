@@ -1,0 +1,15 @@
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\Account.Model.deps.json
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\Account.Model.runtimeconfig.json
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\Account.Model.runtimeconfig.dev.json
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\Account.Model.dll
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\ref\Account.Model.dll
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\bin\Debug\net5.0\Account.Model.pdb
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.csprojAssemblyReference.cache
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.AssemblyInfoInputs.cache
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.AssemblyInfo.cs
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.csproj.CoreCompileInputs.cache
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.dll
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\ref\Account.Model.dll
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.pdb
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Model\obj\Debug\net5.0\Account.Model.genruntimeconfig.cache

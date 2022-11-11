@@ -1,0 +1,5 @@
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Service\obj\Debug\net5.0\Account.Service.csprojAssemblyReference.cache
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Service\obj\Debug\net5.0\Account.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Service\obj\Debug\net5.0\Account.Service.AssemblyInfoInputs.cache
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Service\obj\Debug\net5.0\Account.Service.AssemblyInfo.cs
+C:\Users\conno\source\repos\HicksNationalBankProcess\Account.Service\obj\Debug\net5.0\Account.Service.csproj.CoreCompileInputs.cache
