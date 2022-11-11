@@ -8,11 +8,9 @@ using System.Threading.Tasks;
 namespace Account.Tests
 {
     static class DependencyResolver
-
     {
         private static IContainer mCurrent;
         public static IContainer Current
-
         {
             get
             {
