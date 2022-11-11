@@ -13,7 +13,7 @@ namespace Account.Model.Entities
     {
         public HicksNationalAccount()
         {
-            HicksNationalAccountOwners = new HashSet<HicksNationalAccountOwner>();
+            HicksNationalAccountOwnerLinkages = new HashSet<HicksNationalAccountOwnerLinkage>();
         }
 
         [Key]
@@ -28,7 +28,7 @@ namespace Account.Model.Entities
         [ForeignKey(nameof(AccountTypeId))]
         [InverseProperty(nameof(HicksNationalAccountType.HicksNationalAccounts))]
         public virtual HicksNationalAccountType AccountType { get; set; }
-        [InverseProperty(nameof(HicksNationalAccountOwner.Account))]
-        public virtual ICollection<HicksNationalAccountOwner> HicksNationalAccountOwners { get; set; }
+        [InverseProperty(nameof(HicksNationalAccountOwnerLinkage.Account))]
+        public virtual ICollection<HicksNationalAccountOwnerLinkage> HicksNationalAccountOwnerLinkages { get; set; }
     }
 }

@@ -43,8 +43,9 @@ namespace Account.Service.Commands
                 return;
             }
             decimal? withdrawalLimit = null;
-            withdrawalLimit = updatingAccount.AccountType.WithdrawalLimit;
-            if(withdrawalLimit != null && accountUpdate.RenderedAmount > withdrawalLimit)
+            withdrawalLimit = updatingAccount.AccountType.WithdrawalLimit == null ? updatingAccount.Balance: updatingAccount.AccountType.WithdrawalLimit ;
+
+            if(accountUpdate.RenderedAmount > withdrawalLimit)
             {
                 return;
             }

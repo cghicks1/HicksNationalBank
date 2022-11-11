@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Account.Service.DTOs;
+using System.Threading.Tasks;
 
 namespace Account.Service.Interfaces
 {
-    public class IAccountCommands
+    public interface IAccountCommands
     {
+        Task UpdateAccount(AccountUpdateDTO accountUpdate);
     }
 }

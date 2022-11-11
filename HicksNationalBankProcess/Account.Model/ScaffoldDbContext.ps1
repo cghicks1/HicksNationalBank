@@ -12,6 +12,8 @@
 
                     "account.HicksNationalAccountOwner",
 
+                    "account.HicksNationalAccountOwnerLinkage",
+
                     "ref.HicksNationalAccountType"
 
                     

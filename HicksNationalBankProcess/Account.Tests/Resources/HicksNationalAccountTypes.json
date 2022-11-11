@@ -1,3 +1,20 @@
-{
-
-}
+[
+  {
+    "Id": 1,
+    "IsChecking": 1,
+    "AccountType": "Checking",
+    "WithdrawalLimit": null
+  },
+  {
+    "Id": 2,
+    "IsChecking": 0,
+    "AccountType": "Individual",
+    "WithdrawalLimit": 500
+  },
+  {
+    "Id": 3,
+    "IsChecking": 0,
+    "AccountType": "Checking",
+    "WithdrawalLimit": null
+  }
+]

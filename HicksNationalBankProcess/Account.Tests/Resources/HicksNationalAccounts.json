@@ -1,3 +1,28 @@
-{
+[
+  {
+    "Id": 1,
+    "AccountNumber": 1234567891011,
+    "AccountTypeId": 1,
+    "Balance": 600,
+    "CreatedOn": "2012-04-23T18:25:43.511Z",
+    "ModifiedOn": null
+  },
+  {
+    "Id": 2,
+    "AccountNumber": 1234567891012,
+    "AccountTypeId": 2,
+    "Balance": 8000,
+    "CreatedOn": "2012-04-23T18:25:43.511Z",
+    "ModifiedOn": null
+  },
+  {
+    "Id": 3,
+    "AccountNumber": 1234567891013,
+    "AccountTypeId": 3,
+    "Balance": 400000,
+    "CreatedOn": "2012-04-23T18:25:43.511Z",
+    "ModifiedOn": null
+  }
+]
 
-}
+ 
