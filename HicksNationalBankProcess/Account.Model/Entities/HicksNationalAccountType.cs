@@ -18,7 +18,7 @@ namespace Account.Model.Entities
 
         [Key]
         public int Id { get; set; }
-        public bool IsChecking { get; set; }
+        public bool IsInvestment { get; set; }
         [Required]
         [StringLength(100)]
         public string AccountType { get; set; }
