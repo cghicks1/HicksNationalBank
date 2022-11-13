@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-
+	  <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -27,6 +27,21 @@
   <ItemGroup>
     <ProjectReference Include="..\Account.Model\Account.Model.csproj" />
     <ProjectReference Include="..\Account.Service\Account.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\HicksNationalAccountOwnerLinkages.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\HicksNationalAccountOwners.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\HicksNationalAccounts.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\HicksNationalAccountTypes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

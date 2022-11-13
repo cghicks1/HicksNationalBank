@@ -2,6 +2,8 @@ using System;
 using Xunit;
 using Autofac;
 using Account.Model;
+using Account.Service.Commands;
+using Account.Service.Interfaces;
 
 namespace Account.Tests
 {
@@ -9,17 +11,12 @@ namespace Account.Tests
 
     {
         protected override void Load(ContainerBuilder builder)
-
         {
-
             // Model
-
             builder.Register(c => MockAccountDbContext.CreateDbContext())
             .As<AccountDbContext>()
             .InstancePerLifetimeScope();
-            // builder.RegisterType<CoaQueries>().As<ICoaQueries>();
-
-
+            builder.RegisterType<AccountCommands>().As<IAccountCommands>();
 
         }
     }

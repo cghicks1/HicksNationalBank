@@ -1,4 +1,6 @@
 ﻿using Account.Model;
+using Account.Service.Commands;
+using Account.Service.Interfaces;
 using Autofac;
 using System;
 
@@ -17,6 +19,9 @@ namespace Account.Service
             builder.Register(c => AccountDbContext.NewAccountDbContext(_dbConnString))
          .As<AccountDbContext>()
          .InstancePerLifetimeScope();
+
+          builder.RegisterType<AccountCommands>().As<IAccountCommands>();
+
         }
 
     }
